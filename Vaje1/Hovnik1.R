@@ -8,7 +8,7 @@ library(ggplot2)
 
 library(readxl)
 #1. naloga
-tabela2010 <- read_excel("tabela2010.xlsx")
+tabela2010 <- read_excel("Vaje1/tabela2010.xlsx")
 tabela2010 <- tabela2010[c(1,21,41,64,86,107,129,151,173,195,216,238),]
 tabela2010 <- tabela2010[-17]
 tabela2010 <- tabela2010[,-1]
@@ -18,7 +18,7 @@ rownames(tabela2010)<- c("04/01/2010", "01/02/2010", "01/03/2010",
                         "01/10/2010", "01/11/2010", "01/12/2010") 
 
 
-tabela2011 <- read_excel("tabela2011.xlsx")
+tabela2011 <- read_excel("Vaje1/tabela2011.xlsx")
 tabela2011 <- tabela2011[c(1,22,42,65,84,106,128,149,172,194,215,237),]
 tabela2011 <- tabela2011[,-1]
 rownames(tabela2011)<- c("03/01/2011", "01/02/2011", "01/03/2011",
@@ -27,7 +27,7 @@ rownames(tabela2011)<- c("03/01/2011", "01/02/2011", "01/03/2011",
                          "03/10/2011", "01/11/2011", "01/12/2011") 
 
 
-tabela2012 <- read_excel("tabela2012.xlsx")
+tabela2012 <- read_excel("Vaje1/tabela2012.xlsx")
 tabela2012 <- tabela2012[c(1,23,44,66,85,107,128,150,173,193,216,238),]
 tabela2012 <- tabela2012[,-1]
 rownames(tabela2012)<- c("02/01/2012", "01/02/2012", "01/03/2012",
