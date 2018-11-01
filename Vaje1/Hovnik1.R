@@ -140,5 +140,5 @@ g.razsevni2012 <- ggplot(terminska2012,aes(x = terminska2012$'Napoved3m', y = te
    
   print(g.razsevni2012)
 
-  #3e
+  
   
