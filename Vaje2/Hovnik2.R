@@ -43,3 +43,4 @@ EY
 ES
 
 #2. naloga
+kr neki
